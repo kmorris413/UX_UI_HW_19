@@ -1,0 +1,341 @@
+body {
+    background-color: #E1E5F2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:#1F7A8C;
+   padding: .5px;
+}
+.About:hover {
+    font-size: 16px;
+}
+.Skills:hover {
+    font-size: 16px;
+}
+.Resume:hover {
+    font-size: 16px;
+}
+.Work:hover {
+    font-size: 16px;
+}
+.Contact:hover {
+    font-size: 16px;
+}
+
+.logo {
+    padding: 1%;
+}
+.center {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center a {
+    color:#E1E5F2;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.heroSection {
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.picofMe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.Welcome {
+    color: #022B3A;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.Iam {
+    color: #022B3A;
+    font-size: 20px;
+    padding-top: 50px;
+    width: 700px;
+    margin: auto;
+}
+/*About Section*/
+.mtnPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+h2 {
+    color: #022B3A;
+}
+.aboutMe {
+    height: 600px;
+    padding-top: 0;
+    padding-bottom: 275px;
+    text-align: left;
+    margin: 75px;
+}
+.aboutMeTitle {
+    font-size: 30px;
+    color: #022B3A;
+}
+
+/* UX Skills Section*/
+.flexContainer {
+    display: flex;
+}
+.personaDev {
+    width: 33%;
+    margin: 3%;
+    padding: 5px;
+}
+.journeyMap {
+    width: 33%;
+    margin: 3%;
+    padding: 5px;
+}
+.userInterviewing {
+    width: 33%;
+    margin: 3%;
+    padding: 5px;
+}
+.personaInfo {
+    font-size: 18px;
+}
+.journeyInfo {
+    font-size: 18px;
+}
+.interviewInfo {
+    font-size: 18px;
+}
+
+/*UX Skills icon Images*/
+.personA {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.journeY {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.intervieW {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.UXSkills {
+    color: #022B3A;
+    font-size: 24px;
+}
+
+h3 {
+    color: #022B3A;
+}
+
+p {
+    color: #022B3A;
+}
+
+/*My Work Section*/
+.workGrid {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+        "firstPic firstProject"
+        "secondPic secondProject"
+        "thirdPic thirdProject"
+        ;
+}
+.firstPic {
+    grid-area: firstPic;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.firstProject {
+    grid-area: firstProject;
+    margin: auto;
+    padding-bottom: 50px;   
+}
+.secondPic {
+    grid-area: secondPic;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.secondProject {
+    grid-area: secondProject;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.thirdPic {
+    grid-area: thirdPic;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.thirdProject {
+    grid-area: thirdProject;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.myWorkTitle {
+    color: #022B3A;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 22px;
+    padding-bottom: 25px;
+    color: #022B3A;
+}
+.mesaDescription {
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+.unwindDescription {
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+.voyageDescription {
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+.viewProject {
+    font-size: 12px;
+    background-color:#022B3A;
+    color: #FFFFFF;
+    width: 125px;
+    height: 35px;
+}
+.viewProject:hover {
+    background-color: #1F7A8C;
+}
+
+.viewAll {
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: #022B3A;
+    text-decoration: none;
+
+}
+.viewAll:hover {
+    font-size: 22px;
+}
+
+/*About Section*/
+.backgroundText {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.funfactsText {
+    font-size: 18px;
+    padding-bottom: 35px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F7A8C;
+    padding: 15px;
+    clear: both;
+}
+.footer a {
+    color: #E1E5F2;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: column;
+    }
+    .personaDev {
+        width: 100%;
+        margin: 3%;
+        padding: 5px;
+    }
+    .journeyMap {
+        width: 100%;
+        margin: 3%;
+        padding: 5px;
+    }
+    .userInterviewing {
+        width: 100%;
+        margin: 3%;
+        padding: 5px;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-rows: 50% 50% 50% 50%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "firstPic"
+            "firstProject"
+            "secondPic"
+            "secondProject"
+            ;
+    }
+    .firstPic {
+        grid-area: firstPic;
+        padding-bottom: 0px;
+        padding-top: 0px; 
+    }
+    .firstProject {
+        grid-area: firstProject;
+        margin: none;
+        padding-bottom: 0px;   
+    }
+    .secondPic {
+        grid-area: secondPic;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .secondProject {
+        grid-area: secondProject;
+        margin: none;
+        padding-bottom: 0px;
+    }
+}
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: #E1E5F2;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preloader img {
+    animation: spin 3s ease;
+    width: 150px;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(720deg);
+    }
+}
+
