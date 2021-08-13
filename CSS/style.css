@@ -215,13 +215,12 @@ h4 {
 }
 .viewProject {
     font-size: 12px;
-    background-color:#022B3A;
-    color: #FFFFFF;
+    color: #022B3A;
     width: 125px;
     height: 35px;
 }
 .viewProject:hover {
-    background-color: #1F7A8C;
+    font-size: 13px;
 }
 
 .viewAll {
